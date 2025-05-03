@@ -13,7 +13,7 @@
 
 function check(){
 	if [ "$(ls | grep .mp3)" != "" ] ; then
-		./newDir.sh
+		./newDir
 	fi
 	if [ "$(cat songs)" != "" ] ; then
 		return 0
